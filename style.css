@@ -1,0 +1,134 @@
+body{
+    height: 804px;
+    width: 375px;
+ background-color: white;
+}
+#main-box{
+    height: 804px;
+    width: 325px;
+    margin: 25px;
+}
+#box1{
+    background-color: hsl(241, 81%, 54%);
+    height: 350px;
+    width: 315px;
+    border-radius: 0px 0px 25px 25px;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+#sp1{
+    height: 95px;
+    width: 95px;
+    margin-left: 85px;
+    border-radius: 100px;
+    background-color: rgb(171, 155, 218);
+
+}
+#box2{
+    background-color: white;
+    width: 315px;
+    height: 350px;
+
+}
+#box2 h3{
+    margin-left: 25px;
+}
+#box4{
+    text-align: center;
+}
+button{
+    text-align: center;
+    height: 45px;
+    width: 250px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    background-color: hsl(224, 30%, 27%);
+    margin-top: 25px;
+}
+#indiv{
+    text-align: center;
+    margin-left: 45px;
+}
+#b1,#p1,#i1{
+    color: hsl(241, 100%, 89%);
+    font-style: normal;
+}
+#b2{
+    color: hsl(221, 100%, 96%);
+    font-size:x-large;
+}
+#b3{
+    color: hsl(0, 0%, 100%);
+    font-size: xx-large;
+}
+#i1{
+    color: hsl(224, 30%, 27%);
+}
+.list{
+    height: 45px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(214, 207, 207);
+}
+.left{
+    margin-left: 5px;
+}
+.right{
+    margin-left: 145px;
+}
+#list1{
+    background-color:hsl(0, 27%, 86%);
+}
+#list2{
+    background-color:hsl(38, 17%, 88%);
+}
+#list3{
+    background-color:hsl(164, 16%, 82%);
+}
+#list4{
+    background-color:hsl(234, 22%, 82%);
+}
+#l1{
+    color: hsl(0, 100%, 67%);
+}
+#l2{
+    color: hsl(39, 100%, 56%);
+}
+#l3{
+    color: hsl(166, 100%, 37%);
+}
+#l4{
+    color: hsl(234, 85%, 45%);
+}
+
+/* Larger screen */
+@media (min-width:1200px) {
+    body{
+        height: 1080px;
+        width: 1440px;
+    }
+    #main-box{
+        height: 550px;
+        width: 750px;
+        display: flex;
+        background-color: rgb(248, 247, 245);
+        margin-left: 275px;
+        margin-top: 35px;
+        padding: 50px;
+    }
+    #box1,#box2{
+        height: 400px;
+        width: 350px;
+        border-radius: 25px;
+    }
+    #box2{
+        height: 425px;
+        margin-top: -20px;
+        margin-left: -10px;
+    }
+}
